@@ -16,7 +16,7 @@
     "release:canary": "lerna version prerelease --no-changelog --preid next",
     "release:stable": "lerna version --no-changelog",
     "prepublishOnly": "npm run test && npm run build",
-    "release": "lerna publish from-package latest"
+    "release": "lerna publish from-package"
   },
   "workspaces": [
     "packages/*"
