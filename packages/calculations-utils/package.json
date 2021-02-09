@@ -1,0 +1,22 @@
+{
+  "name": "@brainylab/calculations-utils",
+  "version": "0.0.1",
+  "description": "BrainyLab Libs",
+  "author": "André Felipe Schulle <andre@brainylab.com.br>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "typings/calculations-utils/lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "gitHead": "404d55036e8b36ed0f638145929b61c3a5cc5adc"
+}

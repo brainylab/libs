@@ -1,0 +1,22 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "exact": true,
+      "conventionalCommits": true,
+      "message": "chore(release): Created Version %s"
+    },
+    "publish": {
+      "npmClient": "npm",
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "message": "chore(release): Publish on NPM %s"
+    }
+  },
+  "version": "0.2.12"
+}
