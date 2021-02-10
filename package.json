@@ -14,8 +14,8 @@
     "coverage": "node scripts/report-script.js",
     "tsc": "tsc --skipLibCheck",
     "release:canary": "lerna version prerelease --no-changelog --preid next",
+    "prerelease:stable": "npm run test && npm run build",
     "release:stable": "lerna version --no-changelog",
-    "prepublishOnly": "npm run test && npm run build",
     "release": "lerna publish from-package"
   },
   "workspaces": [
