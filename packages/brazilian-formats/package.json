@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "types": "typings/brazilian-formats/lib/index.d.ts",
+  "types": "typings/brazilian-formats/typings/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
