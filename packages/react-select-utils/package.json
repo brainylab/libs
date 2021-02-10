@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "types": "typings/react-select-utils/typings/index.d.ts",
+  "types": "typings/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
