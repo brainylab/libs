@@ -15,7 +15,8 @@
       "npmClient": "npm",
       "allowBranch": "master",
       "conventionalCommits": true,
-      "message": "chore(release): Publish on NPM %s"
+      "message": "chore(release): Publish on NPM %s",
+      "registry": "https://registry.npmjs.org/"
     }
   },
   "version": "0.1.1"
