@@ -1,0 +1,25 @@
+{
+  "name": "@brainylab/unform-utils",
+  "version": "0.1.4",
+  "description": "BrainyLab Libs",
+  "author": "André Felipe Schulle <andre@brainylab.com.br>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "typings/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "gitHead": "af7567b4e985f9bd7bfc61b110bac0d6892e9319",
+  "dependencies": {
+    "yup": "^0.32.9"
+  }
+}
