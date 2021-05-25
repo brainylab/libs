@@ -14,7 +14,7 @@
     "dist",
     "typings"
   ],
-  "gitHead": "904c74438b6f712d02d0b404c154e66bd30f29e7",
+  "gitHead": "693a42b498553867439c5a8e854407948d669b31",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.2",
     "@typescript-eslint/parser": "^4.8.2",
