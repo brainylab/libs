@@ -1,6 +1,6 @@
 {
   "name": "@brainylab/eslint-config",
-  "version": "0.1.5-next.0",
+  "version": "0.1.5",
   "description": "BrainyLab Eslint Config",
   "author": "André Felipe Schulle <andre@brainylab.com.br>",
   "license": "MIT",
