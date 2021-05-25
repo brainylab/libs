@@ -1,12 +1,10 @@
 {
-  "name": "@brainylab/eslint-config",
+  "name": "@brainylab/eslint-config-monorepo",
   "version": "0.1.5",
   "description": "BrainyLab Eslint Config",
   "author": "André Felipe Schulle <andre@brainylab.com.br>",
   "license": "MIT",
   "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "types": "typings/index.d.ts",
   "directories": {
     "lib": "lib"
   },

@@ -1,4 +1,4 @@
-export const monorepoConfig = {
+module.exports = {
   env: {
     browser: true,
     es2020: true,
@@ -56,6 +56,12 @@ export const monorepoConfig = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
+    // '@typescript-eslint/no-unused-vars': [
+    //   'error',
+    //   {
+    //     argsIgnorePattern: 'next',
+    //   },
+    // ],
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/naming-convention': [
       'error',
@@ -71,6 +77,7 @@ export const monorepoConfig = {
     'import-helpers/order-imports': [
       'warn',
       {
+        // example configuration
         newlinesBetween: 'always',
         groups: [
           '/^react/',
