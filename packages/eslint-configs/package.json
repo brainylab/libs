@@ -8,14 +8,13 @@
   "module": "dist/index.es.js",
   "types": "typings/index.d.ts",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "dist",
     "typings"
   ],
-  "gitHead": "2abfe90554714e9fb0fccd76cb7bb228f6e30d85",
+  "gitHead": "904c74438b6f712d02d0b404c154e66bd30f29e7",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.2",
     "@typescript-eslint/parser": "^4.8.2",

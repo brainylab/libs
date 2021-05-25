@@ -18,7 +18,7 @@
   "scripts": {
     "test": "jest"
   },
-  "gitHead": "2abfe90554714e9fb0fccd76cb7bb228f6e30d85",
+  "gitHead": "904c74438b6f712d02d0b404c154e66bd30f29e7",
   "dependencies": {
     "yup": "^0.32.9"
   }
